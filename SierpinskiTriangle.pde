@@ -1,4 +1,4 @@
-int triangle = 850;
+int triangle = 85\00;
 
 public void setup() {
   size(900, 850);
@@ -12,7 +12,7 @@ public void draw() {
 }
 
 public void sierpinski(int x, int y, int len){
-  if (len <= mouseY) {
+  if (len <= 20) {
     triangle (x, y, x +len/2, y - len, x+len, y);
   } 
   else {
