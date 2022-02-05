@@ -5,7 +5,6 @@ public void setup(){
 }
 
 int triangle = 850;
-int x = 0;
 public void draw(){
   sierpinski(20,830,triangle);
 }
