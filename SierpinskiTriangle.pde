@@ -1,5 +1,3 @@
-int size = 800;
-
 public void setup() {
   size(900, 850);
 }
@@ -8,7 +6,7 @@ public void draw() {
   background(0, 0, 0);
   fill(0,0,0);
   stroke(mouseX, mouseY - 30, mouseX + 100);
-  sierpinski(20, 830, size);
+  sierpinski(20, 830, 800);
 }
 
 public void sierpinski(int x, int y, int len){
