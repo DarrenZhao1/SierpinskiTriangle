@@ -1,4 +1,4 @@
-int triangle = 85\00;
+int triangle = 800;
 
 public void setup() {
   size(900, 850);
