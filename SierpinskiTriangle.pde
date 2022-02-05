@@ -1,7 +1,6 @@
 public void setup(){
   size(900,850);
   background(0,0,0);
-  smooth(2);
 }
 
 int triangle = 850;
