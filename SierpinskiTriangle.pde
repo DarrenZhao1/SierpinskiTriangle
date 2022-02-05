@@ -14,7 +14,7 @@ public void sierpinski(int x, int y, int len)
 {
   if (len <= mouseY)
   {
-    triangle(x, y, x+len, y, x+(len/2), y-len);
+    triangle(x, y, x +len/2, y - len, x+len, y);
   } else
   {
     sierpinski(x, y, len/2);
