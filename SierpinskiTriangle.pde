@@ -1,8 +1,9 @@
+int triangle = 850;
+
 public void setup() {
   size(900, 850);
 }
 
-int triangle = 850;
 public void draw() {
   background(0, 0, 0);
   fill(0,0,0);
