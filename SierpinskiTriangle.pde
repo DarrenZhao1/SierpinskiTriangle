@@ -10,8 +10,7 @@ public void draw() {
   sierpinski(20, 830, triangle);
 }
 
-public void sierpinski(int x, int y, int len)
-{
+public void sierpinski(int x, int y, int len){
   if (len <= mouseY)
   {
     triangle(x, y, x +len/2, y - len, x+len, y);
